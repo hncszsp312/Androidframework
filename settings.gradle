@@ -1,2 +1,7 @@
+include ':lib_imageloader'
+include ':lib_dialog'
+include ':lib_location'
+include ':lib_webview'
+include ':lib_network'
 include ':app'
 rootProject.name = "Androidframework"
