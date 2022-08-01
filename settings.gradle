@@ -1,3 +1,4 @@
+include ':lib_customwidget'
 include ':lib_imageloader'
 include ':lib_dialog'
 include ':lib_location'

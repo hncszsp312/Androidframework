@@ -1,8 +1,20 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from :this.rootProject.file('zhongshuiping.gradle')
+
 buildscript {
     repositories {
         google()
         jcenter()
+        mavenCentral()
+//        maven {
+//            url 'http://localhost:8081/repository/zhongshuiping-release/'
+//            username 'admin'
+//            password 'zsp328798'
+//        }
+//        maven {
+//            url 'http://localhost:8081/repository/zhongshuiping-snapshot/'
+//            username 'admin'
+//            password 'zsp328798'
+//        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
@@ -16,6 +28,17 @@ allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
+//        maven {
+//            url 'http://localhost:8081/repository/zhongshuiping-release/'
+//            username 'admin'
+//            password 'zsp328798'
+//        }
+//        maven {
+//            url 'http://localhost:8081/repository/zhongshuiping-snapshot/'
+//            username 'admin'
+//            password 'zsp328798'
+//        }
     }
 }
 
