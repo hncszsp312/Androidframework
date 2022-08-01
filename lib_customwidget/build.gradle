@@ -41,6 +41,8 @@ dependencies {
     implementation this.rootProject.depsLibs.okhttp
     implementation this.rootProject.depsLibs.multidex
     implementation this.rootProject.depsLibs.glide
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 }
 
 uploadArchives{
