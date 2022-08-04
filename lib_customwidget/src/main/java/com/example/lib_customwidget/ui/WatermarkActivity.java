@@ -3,7 +3,6 @@ package com.example.lib_customwidget.ui;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
 import com.example.lib_customwidget.R;
 import com.example.lib_customwidget.watermark.watermarkUtils;
 
