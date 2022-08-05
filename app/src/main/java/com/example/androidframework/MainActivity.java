@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    //按钮
+    //按钮 注释
     private Button btn_watermark;
 
 
